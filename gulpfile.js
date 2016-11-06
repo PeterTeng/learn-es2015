@@ -1,3 +1,4 @@
+// Check Document https://github.com/gulpjs/gulp
 const gulp = require('gulp');
 const babel = require('gulp-babel');
 const del = require('del');
