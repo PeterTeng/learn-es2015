@@ -6,7 +6,7 @@
     "gulp-babel": "^6.1.2"
   },
   "scripts": {
-    "start": "node ."
+    "start": "gulp"
   },
   "babel": {
     "presets": [
