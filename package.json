@@ -1,4 +1,18 @@
 {
+  "scripts": {
+    "start": "gulp"
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "plugins": [
+      "import"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
   "devDependencies": {
     "babel-preset-latest": "^6.16.0",
     "del": "^2.2.2",
@@ -9,20 +23,6 @@
     "eslint-plugin-react": "^6.6.0",
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
-  },
-  "eslintConfig": {
-    "extends": "airbnb",
-    "plugins": [
-      "import"
-    ]
-  },
-  "scripts": {
-    "start": "gulp"
-  },
-  "babel": {
-    "presets": [
-      "latest"
-    ]
   },
   "dependencies": {}
 }
