@@ -1,3 +1,5 @@
-# Learn ES2015
+# Learn JavaScript in 2016
 
-Fron [babeljs.io](https://babeljs.io/docs/learn-es2015/)
+## Learn from
+- [js-stack-from-scratch](https://github.com/verekia/js-stack-from-scratch)
+- [babeljs.io](https://babeljs.io/docs/learn-es2015/)
