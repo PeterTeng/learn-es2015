@@ -10,6 +10,16 @@ const paths = {
   libDir: 'lib',
 };
 
+gulp.task('lint', () => {
+  return gulp.src([
+    paths.allSrcJs,
+    paths.gulpFile,
+  ])
+    .pipe(eslint())
+    .pipe(eslint.format())
+    .pipe(eslint.failAfterError());
+});
+
 gulp.task('clean', () => {
   return del(paths.libDir);
 });
