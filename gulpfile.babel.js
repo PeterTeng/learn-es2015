@@ -9,13 +9,16 @@ import { exec } from 'child_process';
 const paths = {
   allSrcJs: 'src/**/*.js',
   gulpFile: 'gulpfile.babel.js',
+  webpackFile: 'webpack.config.babel.js',
   libDir: 'lib',
+  distDir: 'dist',
 };
 
 gulp.task('lint', () =>
   gulp.src([
     paths.allSrcJs,
     paths.gulpFile,
+    paths.webpackFile,
   ])
     .pipe(eslint())
     .pipe(eslint.format())
