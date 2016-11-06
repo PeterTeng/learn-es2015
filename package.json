@@ -28,5 +28,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-eslint": "^3.0.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
+  }
 }
