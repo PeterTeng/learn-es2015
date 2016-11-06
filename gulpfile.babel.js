@@ -7,6 +7,7 @@ import { exec } from 'child_process';
 
 const paths = {
   allSrcJs: 'src/**/*.js',
+  gulpFile: 'gulpfile.babel.js',
   libDir: 'lib',
 };
 
