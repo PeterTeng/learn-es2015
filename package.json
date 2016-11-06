@@ -5,6 +5,9 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2"
   },
+  "scripts": {
+    "start": "node ."
+  },
   "babel": {
     "presets": [
       "latest"
