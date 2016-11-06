@@ -12,5 +12,8 @@
     "presets": [
       "latest"
     ]
+  },
+  "dependencies": {
+    "color": "^0.11.4"
   }
 }
