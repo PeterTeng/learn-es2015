@@ -4,6 +4,8 @@ import gulp from 'gulp';
 import babel from 'gulp-babel';
 import eslint from 'gulp-eslint';
 import del from 'del';
+import webpack from 'webpack-stream';
+import webpackConfig from './webpack.config.babel';
 
 const paths = {
   allSrcJs: 'src/**/*.js',
