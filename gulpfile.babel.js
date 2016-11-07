@@ -4,7 +4,6 @@ import gulp from 'gulp';
 import babel from 'gulp-babel';
 import eslint from 'gulp-eslint';
 import del from 'del';
-import { exec } from 'child_process';
 
 const paths = {
   allSrcJs: 'src/**/*.js',
